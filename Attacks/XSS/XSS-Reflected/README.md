@@ -22,7 +22,7 @@
 
 2. **Execute the following XSS payloads:**
    - Payload 1: `<script>alert('XSS1');</script>`
-  ![DVWA Security Level](https://github.com/gena205/DVWA-Attack-Analysis-with-Splunk/blob/main/Screenshots/xss/xss_reflected/alert1.png)
+  ![DVWA Security Level](https://github.com/gena205/DVWA-Attack-Analysis-with-Splunk/raw/main/Screenshots/xss/xss_reflected/alert1.png)
   ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS1.2.png)
 
 - Payload 2: `<img src="x" onerror="alert('XSS2');">`
