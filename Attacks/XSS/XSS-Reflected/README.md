@@ -22,26 +22,24 @@
 
 2. **Execute the following XSS payloads:**
    - Payload 1: `<script>alert('XSS1');</script>`
-![DVWA Security Level](Screenshots\xss\xss_reflected\XSS1.1.png)
-   ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS1.2.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS1.1.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS1.2.png)
 
    - Payload 2: `<img src="x" onerror="alert('XSS2');">`
-![DVWA Security Level](Screenshots\xss\xss_reflected\XSS2.1.png)
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS2.2.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS2.1.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS2.2.png)
 
    - Payload 3: `"><script>alert('XSS3');</script>`
-![DVWA Security Level](Screenshots\xss\xss_reflected\XSS3.1.png)
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS3.2.png)
-
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS3.1.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS3.2.png)
 
    - Payload 4: `"><img src=x onerror=alert('XSS4');>`
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS4.1.png)
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS4.2.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS4.1.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS4.2.png)
 
    - Payload 5: `<body onload=alert('XSS5')>`
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS5.1.png)
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS5.2.png)
-
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS5.1.png)
+     ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS5.2.png)
 
 ## Step 3: Capturing Logs with Splunk Forwarder
 1. **Set up Splunk Forwarder on Windows 10:**
