@@ -23,7 +23,7 @@
 2. **Execute the following XSS payloads:**
    - Payload 1: `<script>alert('XSS1');</script>`
 ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS1.1.png)
-   ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS1.2.png)
+   ![DVWA Security Level](Screenshots/xss/xss_reflected/XSS1.2.png)
 
    - Payload 2: `<img src="x" onerror="alert('XSS2');">`
 ![DVWA Security Level](Screenshots\xss\xss_reflected\XSS2.1.png)
