@@ -3,7 +3,7 @@
 # Presentation: Analyzing XSS (Reflected) Attacks on DVWA Using Splunk
 
 ## Introduction
-Objective:** Conduct XSS (Reflected) attacks on DVWA, analyze logs in Splunk, and create alerts and a dashboard for monitoring.  
+**Objective:** Conduct XSS (Reflected) attacks on DVWA, analyze logs in Splunk, and create alerts and a dashboard for monitoring.  
 **Tools:** DVWA (Damn Vulnerable Web Application), Splunk Server, Splunk Forwarder, XAMPP on Windows 10.
 
 ## Step 1: Setting Up DVWA
